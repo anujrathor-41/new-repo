@@ -1,0 +1,57 @@
+ <!-- <!-- <!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            text-decoration: none;
+
+            .navbar{
+                width: 30%;
+                border: 0.1px solid red;
+                display: flex;
+                padding: 5px;
+                margin: 5px;
+                
+            }
+            .linkedin{
+                margin: 0px 5px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/anuj-rathor-a52b13280/">linkedin</a>
+            </div>
+            <div>
+                Quiz
+            </div>
+        
+    </div>
+
+    
+    <h1>My name is Anuj Rathor</h1>
+    <h2>I am in 3rd year Btech cse</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Serial</th><br>
+                <th>Name</th>
+                
+                <th>Type</th>
+                
+            </tr>
+        </thead>
+    </table>
+    
+    
+</body>
+</html>  -->

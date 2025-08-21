@@ -343,7 +343,7 @@
 
 
 
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
@@ -451,5 +451,92 @@
       statusText.textContent = `Player ${currentPlayer}'s turn`;
     }
   </script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Apni Shop</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Apni Shop</h1>
+    <p>Stationery & Snacks for Students</p>
+  </header>
+
+  <!-- Product Listing -->
+  <section class="products">
+    <h2>Our Products</h2>
+    <div class="product-list">
+      <div class="product">
+        <img src="images/pen.jpg" alt="Pen">
+        <h3>Blue Pen</h3>
+        <p>₹10</p>
+      </div>
+      <div class="product">
+        <img src="images/notebook.jpg" alt="Notebook">
+        <h3>Notebook</h3>
+        <p>₹50</p>
+      </div>
+      <div class="product">
+        <img src="images/samosa.jpg" alt="Samosa">
+        <h3>Samosa</h3>
+        <p>₹15</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sign Up Form -->
+  <section class="signup">
+    <h2>Sign Up</h2>
+    <form id="signupForm">
+      <label for="name">Name</label>
+      <input type="text" id="name" required />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" required />
+
+      <label for="role">Role</label>
+      <select id="role">
+        <option value="student">Student</option>
+        <option value="shopkeeper">Shopkeeper</option>
+      </select>
+
+      <button type="submit">Sign Up</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
